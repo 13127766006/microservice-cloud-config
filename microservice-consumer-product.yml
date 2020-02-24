@@ -9,4 +9,7 @@ eureka:
 spring:
   profiles: dev # 开发环境
   application:
-    name: microservice-consumer-product # ******服务名*******
+    name: microservice-consumer-product # ******服务名******
+feign:
+  hystrix:
+    enabled: true
